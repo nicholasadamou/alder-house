@@ -6,7 +6,7 @@
 ![Astro](https://img.shields.io/badge/Astro-303A2D?labelColor=303A2D&logoColor=F5F1E7&logo=astro)
 ![Sanity](https://img.shields.io/badge/Sanity-303A2D?labelColor=303A2D&logoColor=F5F1E7&logo=sanity)
 ![Bun](https://img.shields.io/badge/Bun-303A2D?labelColor=303A2D&logoColor=F5F1E7&logo=bun)
-![Flox](https://img.shields.io/badge/Flox-303A2D?labelColor=303A2D&logoColor=F5F1E7)
+![Flox](https://img.shields.io/badge/Flox-303A2D?labelColor=303A2D&logoColor=F5F1E7&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNjAgMjYwIj48cGF0aCBkPSJNMjE1LjQ5OCAxNkgxMDAuMjczTDQ0IDczLjE2NjZWMTMwLjMzM0gxMDEuMTY2TDIxNS40OTggNzMuMTY2NlYxNlpNMTAxLjE2NyAxMzAuMzM0SDIxNS40OTlWMTg3LjUwMUgxMDEuMTY3VjEzMC4zMzRaTTQ0IDE4Ny41MTNIMTAxLjE2NlYyNDQuNjc5SDQ0VjE4Ny41MTNaIiBmaWxsPSIjRjVGMUU3Ii8%2BPC9zdmc%2B)
 [![License](https://img.shields.io/badge/License-PolyForm_Shield_1.0.0-303A2D?labelColor=303A2D)](LICENSE)
 
 A fictional photography studio for portraits, families, brands, and celebrations.
@@ -44,7 +44,6 @@ The pre-commit hook and GitHub Actions use the same checks.
 
 Copyright © 2026 Nicholas Adamou.
 
-The project is licensed under [PolyForm Shield License 1.0.0](LICENSE), with Nicholas Adamou as
-the holder.
+The project is licensed under [PolyForm Shield License 1.0.0](LICENSE).
 
 Third-party photographs retain their [separate terms and credits](docs/assets.md).
