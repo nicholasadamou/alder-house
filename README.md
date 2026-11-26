@@ -1,22 +1,22 @@
-# Alder House
+# <picture><source media="(prefers-color-scheme: dark)" srcset="public/brand/mark-light.svg"><img src="public/brand/mark.svg" alt="" height="64" /></picture> Alder House
 
-[![ci](https://github.com/nicholasadamou/alder-house/actions/workflows/ci.yml/badge.svg)](https://github.com/nicholasadamou/alder-house/actions/workflows/ci.yml)
-[![Release](.github/badges/release.svg)](https://github.com/nicholasadamou/alder-house/releases)
-[![Astro](https://img.shields.io/badge/Astro-static-BC52EE?logo=astro)](https://astro.build)
-[![Sanity](https://img.shields.io/badge/Sanity-CMS-F03E2F?logo=sanity)](https://www.sanity.io)
-[![Bun](https://img.shields.io/badge/Bun-1.3.11-black?logo=bun)](https://bun.sh)
-[![Flox](https://img.shields.io/badge/Flox-reproducible-99D88C)](https://flox.dev)
-[![Vercel](https://img.shields.io/badge/Vercel-static-black?logo=vercel)](docs/vercel.md)
-[![License](https://img.shields.io/badge/license-PolyForm_Shield-blue)](LICENSE)
+<img src="public/brand/og-image.png" alt="Alder House — Portrait and lifestyle photography" width="1280" />
 
-[Visit the website](https://alder-house.vercel.app) · [Planning tools](https://alder-house.vercel.app/tools/)
+[![CI](https://img.shields.io/github/actions/workflow/status/nicholasadamou/alder-house/ci.yml?branch=main&label=CI&labelColor=303A2D)](https://github.com/nicholasadamou/alder-house/actions/workflows/ci.yml)
+![Astro](https://img.shields.io/badge/Astro-303A2D?labelColor=303A2D&logoColor=F5F1E7&logo=astro)
+![Sanity](https://img.shields.io/badge/Sanity-303A2D?labelColor=303A2D&logoColor=F5F1E7&logo=sanity)
+![Bun](https://img.shields.io/badge/Bun-303A2D?labelColor=303A2D&logoColor=F5F1E7&logo=bun)
+![Flox](https://img.shields.io/badge/Flox-303A2D?labelColor=303A2D&logoColor=F5F1E7)
+[![License](https://img.shields.io/badge/License-PolyForm_Shield_1.0.0-303A2D?labelColor=303A2D)](LICENSE)
 
 A fictional photography studio for portraits, families, brands, and celebrations.
-Astro serves the editorial site, six planning tools, and keyboard search; Sanity
-manages portfolio stories and studio copy. The demo inquiry sends no personal data.
-Vercel hosts the site and deploys pushes to `main`.
+The editorial site includes portfolio stories, six planning tools, and keyboard
+search. Sanity can manage the studio content; the demo inquiry sends no personal
+data.
 
-![Alder House social preview](public/brand/og-image.png)
+[Explore Alder House](https://alder-house.vercel.app)
+
+## Getting started
 
 ```sh
 flox activate
@@ -24,12 +24,27 @@ bun install --frozen-lockfile
 bun run dev
 ```
 
-Open `http://127.0.0.1:4398`. The site starts with fictional content; connect a
-separate Sanity project using the [CMS guide](docs/cms.md). Flox installs the
-pre-commit hook automatically. Run `bun run verify` for the same checks as CI.
+## Documentation
 
-See [docs/](docs/README.md) for the visitor guide, CMS publishing workflow,
-development, Vercel hosting, architecture, release operations, and image credits.
+- [Visitor guide](docs/visitor-guide.md): portfolio stories, session guides, and the demo inquiry.
+- [Getting started and local verification](docs/development.md): Flox, previews, builds, and browser checks.
+- [CMS publishing](docs/cms.md): connect a Sanity project and publish content.
+- [Architecture](docs/architecture.md): site, CMS, and discovery responsibilities.
+- [Brand assets and photography](docs/assets.md): identity files, fonts, and image credits.
+- [Deployment](docs/vercel.md): Vercel configuration and production builds.
 
-Code is distributed under the [license](LICENSE). Third-party photographs retain
-their [separate terms](docs/assets.md).
+## Local verification
+
+Run `bun run verify` inside Flox after installing Chromium as described in
+[development](docs/development.md). The gate checks formatting, documentation,
+types, workflows, website and Studio builds, browser journeys, and accessibility.
+The pre-commit hook and GitHub Actions use the same checks.
+
+## License
+
+Copyright © 2026 Nicholas Adamou.
+
+The project is licensed under [PolyForm Shield License 1.0.0](LICENSE), with Nicholas Adamou as
+the holder.
+
+Third-party photographs retain their [separate terms and credits](docs/assets.md).
